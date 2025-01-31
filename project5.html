@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data form</title>
+    <link rel="stylesheet" href="./ex.css">
+    
+     </head>
+       <body>
+     <form method="post">
+        <fieldset>
+            <legend>Enter youe details</legend>
+    <h1> Student Informaton</h1>
+    <form action="submit_data.php" method="Post">
+        <label for="full name">Full Name:</label>
+        <input type="text" id="full name" name="full name" placehoder="enter your name"><br/>
+         <br/>
+        <label for="father name">father Name:</label>
+        <input type="text" id="father name" name="father name" placeholder="father name"><br/><br/>
+
+        <label for="course">course:</label>
+        <input type="text" id="course" name="course" placeholder="course"><br/>
+<br/>
+        <label for="year">Year:</label>
+        <input type="year" id="year" name="year" placeholder="year"><br/>
+<br/>
+
+        <label for="svdc no">SVDC NO:</label>
+        <input type="no" id="no" name="svdc no" placeholder="svdc no"><br/>
+<br/>
+        <label for="hall ticket no">hall ticket no:</label>
+        <input type="no" id="hall ticket on" name="hall ticket no" palcehoder="Hall ticket no"><br>
+<br/>
+
+        <label for="address">Address:</label>
+        <input type="address" id="address" name="Address" placehoder="Address"><br/>
+
+        <br/>
+
+        <form>
+            <label for="gender">Gendre</label><br/>
+            <input type="radio" id="gender" name="gender" value="male">male
+            <input type="radio" id="gender" name="gender" value="femail">femail
+            <input type="radio" id="gender" name="gender" value="other">other <br/>
+            <br/>
+            
+            <p>Which programing languagen do you know?</p>
+            <select name="dropdown">
+                <option value="c language">C language</option>
+                <option value="java">java</option>
+                <option value="c++">C++</option>
+                <option value="python">python</option>
+
+
+
+            </select>
+            <br/>
+            <p> which is your fav subject</p>
+            <input type="checkbox" name="maths" value="of">Maths
+            <input type="checkbox" name="physics" value="on">Physisc
+            <input type="checkbox" name="electrons" value="on">Electrions
+            <input type="checkbox" name="chemistry" value="on">Chemistry
+
+            <p>Upload CV document</p>
+            <input type="file" name="file upload" accept="Documunt/*">
+            <br/><br/>
+            <button type="submit">Submit</button>
+            
+            </form>
+        </form>
+    </form>
+</fieldset>
+
+        
+        
+        </form>
+        
+    </form>    
+</body>
+</html>
